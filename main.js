@@ -66,6 +66,7 @@ function play() {
 
   if (gameOver) {
     playButton.disabled = true;
+    resultArea.textContent=`Sorry~~ Correct Number was ${computerNum}.`;
   }
 }
 
